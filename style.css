@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  text-align: center;
+  padding: 50px 25px;
+  font-size: 1.5em;
+  color: #114e41;
+  background: #fff;
+  -webkit-box-shadow: inset 0 0 10vw #d0d0d0,
+                      0 14px 28px rgba(0, 0, 0, 0.125),
+                      0 10px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 10vw #d0d0d0,
+                      0 14px 28px rgba(0, 0, 0, 0.125),
+                      0 10px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 10px 0 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+  color: #64E0BA;
+}
+
+a:hover {
+  color: #67D385;
+}
+
+.btn {
+  display: inline-block;
+  color: #FFF;
+  background: #64E0BA;
+  padding: 5px 18px;
+  margin: 15px 10px;
+  font-weight: bolder;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 8px 0 0 #4AA185;
+          box-shadow: 0 8px 0 0 #4AA185;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-transition: background 0.2s ease-in-out,
+                      top 0.3s ease-in-out,
+                      -webkit-box-shadow 0.1s ease-in-out;
+          transition: background 0.2s ease-in-out,
+                      top 0.3s ease-in-out,
+                      box-shadow 0.1s ease-in-out;
+}
+
+.btn:hover {
+  color: #fff;
+  background: rgb(161, 229, 108);
+  -webkit-box-shadow: 0 8px 0 0 #60A14A;
+          box-shadow: 0 8px 0 0 #60A14A;
+}
+
+.btn:active {
+  color: #fff;
+  position: relative;
+  top: 4px;
+  background: #67D385;
+  -webkit-box-shadow: 0 8px 0 0 #4AA16F,
+                      0 10px 5px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 8px 0 0 #4AA16F,
+                      0 10px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.swatch-card {
+  background-color: var(--background, #fff);
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.author {
+  margin-top: 20px;
+  color: var(--text, #000);
+  font-size: 1.5em;
+}
+
+.author a,
+.author a:hover {
+  color: inherit;
+}
+
+.ampersand {
+  width: 200px;
+  height: 200px;
+  display: block;
+  -webkit-mask-image: url(ampersand.svg);
+          mask-image: url(ampersand.svg);
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  mask-mode: alpha;
+  background: -webkit-gradient(linear,
+    left top, left bottom,
+    from(var(--color1)),
+    color-stop(20%, var(--color1, #222)),
+    color-stop(20%, var(--color2, #444)),
+    color-stop(40%, var(--color2, #444)),
+    color-stop(40%, var(--color3, #666)),
+    color-stop(60%, var(--color3, #666)),
+    color-stop(60%, var(--color4, #888)),
+    color-stop(80%, var(--color4, #888)),
+    color-stop(80%, var(--color5, #AAA)),
+    to(var(--color5, #AAA)));
+  background: linear-gradient(
+    var(--color1),
+    var(--color1, #222) 20%,
+    var(--color2, #444) 20%,
+    var(--color2, #444) 40%,
+    var(--color3, #666) 40%,
+    var(--color3, #666) 60%,
+    var(--color4, #888) 60%,
+    var(--color4, #888) 80%,
+    var(--color5, #AAA) 80%,
+    var(--color5, #AAA)
+  );
+}
+
+::-moz-selection {
+  color: var(--text, #fff);
+  background: var(--background, #000);
+}
+
+::selection {
+  color: var(--text, #fff);
+  background: var(--background, #000);
+}
