@@ -1,6 +1,8 @@
-## Coloring Together
+## About
 
 **Coloring Together** is a cute, simple project to display color schemes and contributions as a part of [Hacktoberfest 2018](https://hacktoberfest.digitalocean.com/).
+
+![Preview of some colorful ampersands](https://github.com/blindingstars/coloring-together/blob/master/preview.png)
 
 ## What is Hacktoberfest?
 
