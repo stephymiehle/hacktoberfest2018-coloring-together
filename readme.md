@@ -26,7 +26,7 @@ Copy this snippet and add it right before the `</body>` tag:
   ">
   <div class="ampersand"></div>
   <span class="author">
-    by <a href="https://github.com/YOUR-USERNAME-HERE" class="author">YOUR-USERNAME-HERE</a>
+    by <a href="https://github.com/YOUR-USERNAME-HERE">YOUR-USERNAME-HERE</a>
   </span>
 </div>
 ```
