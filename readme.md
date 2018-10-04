@@ -28,7 +28,8 @@ Copy this snippet and add it right before the `</body>` tag:
   <span class="author">
     by <a href="https://github.com/YOUR-USERNAME-HERE" class="author">YOUR-USERNAME-HERE</a>
   </span>
-</div>```
+</div>
+```
 
 Replace the color codes for `color1`, `color2`, `color3`, `color4`, `background`, and `text`. Your colors should be in hexadecimal, rgb, rgba, hsl, or hsla format.
 
