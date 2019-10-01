@@ -1,3 +1,9 @@
+# Hacktoberfest 2018 is closed and so is this project!
+
+Thanks for playing along :)
+
+---
+
 ## About
 
 **Coloring Together** is a cute, simple project to display color schemes and contributions as a part of [Hacktoberfest 2018](https://hacktoberfest.digitalocean.com/).
